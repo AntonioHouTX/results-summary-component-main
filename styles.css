@@ -1,8 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root {
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+    --light-slate-blue: hsl(252, 100%, 67%);
+    --light-royal-blue: hsl(241, 81%, 54%);
+    --violet-blue: hsla(256, 72%, 46%, 1);
+    --persian-blue: hsla(241, 72%, 46%, 0);
+}
 
+@font-face {
+    font-family: Hanken-Grotesk-Bold;
+    src: url(./assets/fonts/static/HankenGrotesk-Bold.ttf);
+}
 
+@font-face {
+    font-family: Hanken-Grotesk-ExtraBold;
+    src: url(./assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+}
 
-
+@font-face {
+    font-family: Hanken-Grotesk-Medium;
+    src: url(./assets/fonts/static/HankenGrotesk-Medium.ttf);
+}
 
 .attribution {
     font-size: 11px;

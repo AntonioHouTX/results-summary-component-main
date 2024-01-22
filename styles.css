@@ -5,14 +5,17 @@
 }
 
 :root {
+    /* Primary Colors */
     --light-red: hsl(0, 100%, 67%);
     --orangey-yellow: hsl(39, 100%, 56%);
     --green-teal: hsl(166, 100%, 37%);
     --cobalt-blue: hsl(234, 85%, 45%);
+    /* Color Gradients */
     --light-slate-blue: hsl(252, 100%, 67%);
     --light-royal-blue: hsl(241, 81%, 54%);
     --violet-blue: hsla(256, 72%, 46%, 1);
     --persian-blue: hsla(241, 72%, 46%, 0);
+    /* Neutral Colors */
     --white: hsl(0, 0%, 100%);
     --pale-blue: hsl(221, 100%, 96%);
     --light-lavender: hsl(241, 100%, 89%);
@@ -53,36 +56,54 @@ body {
 
 .your-result {
     /* background-color: var(--violet-blue); */
+    padding: 1rem;
     text-align: center;
     border: 1px solid black;
     border-radius: 0 0 10px 10px;
 }
 
 .summary {
+    /* text-align: center; */
     background-color: var(--white);
+    padding: 1rem;
 }
 
 .reaction {
-    background-color: var(--)
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: var(--light-red);
 
 }
 
 .memory {
-    background-color: var(--)
+    background-color: hsla(39, 100%, 56%, 0.1);
+    color: var(--orangey-yellow)
 
 }
 
 .verbal {
-    background-color: var(--)
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color: var(--green-teal);
 
 }
 
 .visual {
-    background-color: var(--light-lavender);
-    /* color: var(--dark-gray-blue); */
+    background-color: hsla(234, 85%, 45%, 0.1);
+    color: var(--cobalt-blue);
 }
 
+button {
+    text-align: center;
+}
 
+.continue {
+    display: inline;
+    /* align-items: center;
+    justify-content: center; */
+    /* text-align: center; */
+    background-color: var(--dark-gray-blue);
+    color: var(--white);
+    border: none;
+}
 
 .attribution {
     font-size: 11px;
